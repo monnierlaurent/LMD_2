@@ -4,7 +4,7 @@ animationService = () => {
 
     const serviceDiv1 = document.getElementById('service_1');
 
-    serviceDiv1.scrollIntoView({ inline: "center" });
+
 
     const serviceDiv2 = document.getElementById('service_2');
     const serviceDiv3 = document.getElementById('service_3');
@@ -49,3 +49,6 @@ animationService = () => {
 };
 
 animationService();
+
+
+//  serviceDiv1.scrollIntoView({ inline: "center" });
