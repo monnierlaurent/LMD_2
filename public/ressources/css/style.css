@@ -162,12 +162,12 @@ a {
 .main__container--flex {
     width: 100%;
     background-color: var(--blanc);
-    padding-bottom: 2.5em;
+    padding-bottom: 3em;
 }
 
 .section_1__h2--style {
     width: 100%;
-    font-size: 1.5em;
+    font-size: 3em;
     text-align: center;
     padding-top: 2em;
     color: var(--bleu);
@@ -231,7 +231,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.1em;
+    font-size: 1.3em;
     animation: display_left 2s forwards;
 }
 
@@ -242,7 +242,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.1em;
+    font-size: 1.3em;
     animation: display_right 2s forwards;
 }
 
@@ -253,7 +253,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.1em;
+    font-size: 1.3em;
     animation: display_left 2s forwards;
 }
 
@@ -264,7 +264,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.1em;
+    font-size: 1.3em;
     animation: display_right 2s forwards;
 }
 
@@ -460,8 +460,8 @@ a {
     width: 15%;
 }
 
-.section_4__img__h2--flex_1 {
-    width: 7.5%;
+.section_4__img__h2--flex {
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -469,39 +469,28 @@ a {
     padding: 7em 0 4em 0;
 }
 
-.section_4__img__h2--flex_2 {
-    width: 7.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 7em 0 4em 0;
+.section_4__img--seize_1 {
+    width: 10%;
 }
 
-.section_4__img__h2--flex_3 {
-    width: 7.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 7em 0 4em 0;
+.section_4__img--seize_2 {
+    width: 10%;
 }
 
-.section_4__img__h2--flex_4 {
-    width: 7.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 7em 0 4em 0;
+.section_4__img--seize_3 {
+    width: 10%;
+}
+
+.section_4__img--seize_4 {
+    width: 10%;
 }
 
 .animation_1 {
-    animation: walk_left 2s forwards
+    animation: walk_left 1s forwards
 }
 
 .animation_2 {
-    animation: walk_right 2s forwards
+    animation: walk_right 1s forwards
 }
 
 @keyframes walk_left {
