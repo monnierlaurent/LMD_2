@@ -367,11 +367,32 @@ a {
     padding: 12em 0 10em 0;
 }
 
+.section_3__img__h3--seize__hide {
+    z-index: 0;
+    position: absolute;
+    width: 12%;
+    height: auto;
+    visibility: hidden;
+}
+
 .section_3__img__h3--seize {
     z-index: 0;
     position: absolute;
     width: 12%;
     height: auto;
+}
+
+.animation_appear {
+    animation: appear 2s forwards;
+}
+
+@keyframes appear {
+    from {
+        transform: scale(0) rotate(-180deg);
+    }
+    to {
+        transform: scale(1) rotate(0);
+    }
 }
 
 .section_3__form--flex {
